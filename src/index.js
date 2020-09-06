@@ -6,6 +6,6 @@ import './style.css';
 const data = Map({msg: "Hello dev server!"});
 
 ReactDOM.render(
-    <h1 class={['hello']}>{data.toString()}</h1>,
+    <h1 className={['hello']}>{data.toString()}</h1>,
     document.getElementById('root')
 );
