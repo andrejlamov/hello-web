@@ -11,7 +11,7 @@ module.exports = {
         test: /\.css$/, use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.js$/, exclude: ['/dist', '/node_modules'], use: ["babel-loader"]
+        test: /\.js$|\.jsx/, exclude: ['/dist', '/node_modules'], use: ["babel-loader"]
       }
     ],
   },
